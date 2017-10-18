@@ -1,4 +1,4 @@
-package monad;
+package monadpattern;
 
 public class App {
 }
