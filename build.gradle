@@ -1,4 +1,4 @@
-group 'com.formfiller'
+group 'com.design.patterns'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
