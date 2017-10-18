@@ -20,5 +20,9 @@
       <entry name="*.json" />
       <entry name="*.vm" />
     </wildcardResourcePatterns>
+    <bytecodeTargetLevel>
+      <module name="DesignPatterns_main" target="1.8" />
+      <module name="DesignPatterns_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
