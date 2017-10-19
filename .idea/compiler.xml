@@ -20,6 +20,9 @@
       <entry name="*.json" />
       <entry name="*.vm" />
     </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DesignPatterns_main" target="1.8" />
       <module name="DesignPatterns_test" target="1.8" />
