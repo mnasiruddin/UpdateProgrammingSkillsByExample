@@ -1,4 +1,4 @@
-package monadpattern;
+package designpatterns.monadpattern;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
