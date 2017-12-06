@@ -10,7 +10,7 @@ import java.util.function.IntUnaryOperator;
 import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
 
-public class Practice {
+public class FunctionsAndPredicates {
 
     private static final ToIntFunction<Integer> sss = s -> s + 9;
     private static final Function<Integer, Integer> sum = x -> x + 5;
