@@ -1,7 +1,6 @@
-package learnbyexample;
+package learnbyexample.java8;
 
 import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -9,6 +8,7 @@ import java.time.format.DateTimeFormatter;
 public class Java8TimeZone {
 
     private static final String DATE_FORMAT = "yyyy-MM-dd hh:mm:ss a";
+
     public static void main(String[] args) {
         LocalDateTime ldt = LocalDateTime.now();
 
