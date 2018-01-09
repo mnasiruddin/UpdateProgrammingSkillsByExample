@@ -14,6 +14,7 @@ public class FunctionsAndPredicates {
 
     private static final ToIntFunction<Integer> sss = s -> s + 9;
     private static final Function<Integer, Integer> sum = x -> x + 5;
+    private static final Function<Integer, Integer> sum1 = x -> x - 15;
     private static final Function<Integer, Function<Integer, Integer>> minus = m -> s -> m - s;
     private static final Predicate<Integer> predicate = p -> p == 5;
     private static final Predicate<Integer> predicate2 = p -> p == 10;
@@ -34,7 +35,14 @@ public class FunctionsAndPredicates {
         System.out.println(strings.parallelStream().reduce("-", (a, b) -> a.concat(b)));
         System.out.println(numbers.stream().reduce(ints, (a, b) -> a * b));*/
 
-        System.out.println(numbers.stream().reduce(ints, (a, b) -> a + b, (a, b) -> a * b));
+        //System.out.println(numbers.stream().reduce(ints, (a, b) -> a + b, (a, b) -> a * b));
+
+        System.out.println(sum.compose(sum1).apply(5));
+
+        int b;
+        Integer a = null;
+        b = a;
+        System.out.println("B" + b);
     }
 
 }

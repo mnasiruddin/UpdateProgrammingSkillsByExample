@@ -26,6 +26,8 @@
     <bytecodeTargetLevel>
       <module name="DesignPatterns_main" target="1.8" />
       <module name="DesignPatterns_test" target="1.8" />
+      <module name="LearnJavaingByExample_main" target="1.8" />
+      <module name="LearnJavaingByExample_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
