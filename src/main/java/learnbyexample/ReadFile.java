@@ -1,4 +1,4 @@
-package learnbyexample.rxjava2;
+package learnbyexample;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

@@ -10,7 +10,7 @@ public class SneakyThrowExample {
 		sneakyThrow();
 	}
 
-	static void sneakyThrow() {
+	private static void sneakyThrow() {
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 56, 54, 7);
 		list.stream().map(ThrowingException.ThrowingFunction.unchecked(SneakyThrowExample::throwException));
 		Optional.of(42).map(ThrowingException.ThrowingFunction.unchecked(SneakyThrowExample::throwException));
