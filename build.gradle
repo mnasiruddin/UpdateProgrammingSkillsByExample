@@ -15,4 +15,5 @@ dependencies {
     compile 'org.eclipse.collections:eclipse-collections-api:9.0.0'
     compile 'org.eclipse.collections:eclipse-collections:9.0.0'
     compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.1.7'
+    compile('com.google.cloud:google-cloud-translate:0.19.0-beta')
 }
