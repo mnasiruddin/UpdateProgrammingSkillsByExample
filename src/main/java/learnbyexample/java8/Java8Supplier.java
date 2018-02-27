@@ -2,10 +2,12 @@ package learnbyexample.java8;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.BooleanSupplier;
 import java.util.function.Supplier;
 
 public class Java8Supplier {
     public static void main(String[] args) {
+
         Map<String, String> map = new HashMap<>();
         map.put("as", "sas");
         Supplier<Employee> supplier = Employee::new;
@@ -15,6 +17,9 @@ public class Java8Supplier {
         System.out.println(maker(supplier).name());
         System.out.println(suppliers.get());
         System.out.println(mapSupplier.get());
+
+        BooleanSupplier booleanSupplier = () -> supplier.get().name().isEmpty();
+        System.out.println(booleanSupplier.getAsBoolean());
     }
 
     private static Employee maker(Supplier<Employee> fx) {
@@ -28,7 +33,7 @@ public class Java8Supplier {
             return "A EMPLOYEE";
         }
 
-        public String name() {
+        String name() {
             return "A EMPLOYEE IN NAME";
         }
     }

@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class ReduceExample {
 
-    static int[] intArrays = {5, 5, 25};
-    static String[] stringArrays = {"google", "IBM", "facebook"};
+    private static int[] intArrays = {5, 5, 25};
+    private static String[] stringArrays = {"google", "IBM", "facebook"};
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         int bbbb = Arrays.stream(intArrays).reduce((x, y) -> x + y).orElse(5);
         System.out.println(bbbb);
         Arrays.stream(intArrays).distinct().max().ifPresent(System.out::println);
