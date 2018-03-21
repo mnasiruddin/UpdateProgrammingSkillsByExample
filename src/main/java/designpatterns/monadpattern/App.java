@@ -51,7 +51,7 @@ public class App {
      * @param args @param args command line args
      */
     public static void main(String[] args) throws Throwable {
-        final User user = new User("user", 24, Sex.MALE, "foobar.com");
+        final User user = new User("nasiruddin", 55, Sex.MALE, "mohammed.com");
         final Validator<User> userValidator = Validator.of(user).validate(User::getName, Objects::nonNull, "name is null")
                 .validate(User::getName, name -> !name.isEmpty(), "name is empty")
                 .validate(User::getEmail, email -> !email.contains("@"), "email doesn't containt '@'")
