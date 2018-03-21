@@ -61,7 +61,7 @@ public class MonadTest {
 
     @Test
     public void testForValid() throws Throwable {
-        User sarah = new User("Sarah", 42, Sex.FEMALE, "sarah@det.org");
+        User sarah = new User("Sarah", 42, Sex.FEMALE, "mohammed@gmail.com");
         User validated = Validator.of(sarah).validate(User::getName, Objects::nonNull, "name cannot be null")
                 .validate(User::getAge, age -> age > 21, "user is underaged")
                 .validate(User::getSex, sex -> sex == Sex.FEMALE, "user is not female")
