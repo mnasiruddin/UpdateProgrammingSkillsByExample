@@ -184,4 +184,14 @@ public class MonadTest {
                 .validate(User::getAge, age -> age > 51, "user is underaged");
         Assert.assertFalse(validator.isValid());
     }
+
+    @Test
+    public void testNormalWay() {
+        if (user.getName().equalsIgnoreCase("Mohamm") && user.getAge() > 51
+                || user.getEmail().contains("@")) {
+            Assert.assertTrue(true);
+        } else {
+            Assert.assertFalse(false);
+        }
+    }
 }
