@@ -92,47 +92,28 @@ public class Validator<T> {
      * @return this
      */
     private Validator<T> validation(Predicate<T> validation, String message) {
-        if (!validation.test(t)) {
-            if (null != message) {
-                exceptions.add(new IllegalStateException(message));
+        if (!isValid()) {
+            if (!validation.test(t)) {
+                if (null != message) {
+                    exceptions.add(new IllegalStateException(message));
+                } else {
+                    exceptions.add(new IllegalStateException());
+                }
+                validationStateSet.add(ValidationState.INVALID);
             } else {
-                exceptions.add(new IllegalStateException());
+                validationStateSet.add(ValidationState.VALID);
             }
-            validationStateSet.add(ValidationState.INVALID);
-        } else {
-            validationStateSet.add(ValidationState.VALID);
         }
         return this;
     }
 
-    /**
-     * Extension for the {@link Validator#validate(Function, Predicate, String)} method,
-     * dedicated for objects, that need to be projected before requested validation.
-     *
-     * @param projection function that gets an objects, and returns projection representing
-     *                   element to be validated.
-     * @param validation see {@link Validator#validate(Function, Predicate, String)}
-     * @param message    see {@link Validator#validate(Function, Predicate, String)}
-     * @param <U>        see {@link Validator#validate(Function, Predicate, String)}
-     * @return this
-     */
-    public <U> Validator<T> validate(Function<T, U> projection, Predicate<U> validation,
-                                     String message) {
-        return validation(projection.andThen(validation::test)::apply, message);
+
+    public <R> Validator<T> validate(Function<T, R> input, Predicate<R> validation, String errorMessage) {
+        return validation(input.andThen(validation::test)::apply, errorMessage);
     }
 
-    /**
-     * Extension for the {@link Validator#validate(Function, Predicate, String)} method,
-     * dedicated for objects, that need to be projected before requested validation.
-     *
-     * @param projection function that gets an objects, and returns projection representing
-     *                   element to be validated.
-     * @param validation see {@link Validator#validate(Function, Predicate, String)}
-     * @param <U>        see {@link Validator#validate(Function, Predicate, String)}
-     * @return this
-     */
-    public <U> Validator<T> validate(Function<T, U> projection, Predicate<U> validation) {
-        return validation(projection.andThen(validation::test)::apply, null);
+    public <R> Validator<T> validate(Function<T, R> input, Predicate<R> validation) {
+        return validation(input.andThen(validation::test)::apply, null);
     }
 
     /**
@@ -156,7 +137,7 @@ public class Validator<T> {
     }
 
     public boolean isValid() {
-        return wasValidAtleastOnce || !validationStateSet.contains(ValidationState.INVALID);
+        return wasValidAtleastOnce || (!validationStateSet.isEmpty() && !validationStateSet.contains(ValidationState.INVALID));
     }
 
     public void flush() {

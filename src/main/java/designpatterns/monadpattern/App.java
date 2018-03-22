@@ -54,6 +54,7 @@ public class App {
         final User user = new User("nasiruddin", 55, Sex.MALE, "mohammed.com");
         final Validator<User> userValidator = Validator.of(user).validate(User::getName, Objects::nonNull, "name is null")
                 .validate(User::getName, name -> !name.isEmpty(), "name is empty")
+                .OR()
                 .validate(User::getEmail, email -> !email.contains("@"), "email doesn't containt '@'")
                 .validate(User::getSex, sx -> sx.equals(Sex.FEMALE), "sex is opposite")
                 .validate(User::getAge, age -> age > 20 && age < 30, "age isn't between...");

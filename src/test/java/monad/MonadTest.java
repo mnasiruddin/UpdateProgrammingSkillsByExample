@@ -46,28 +46,25 @@ public class MonadTest {
     @Test
     public void testForInvalidName() throws Throwable {
         thrown.expect(Throwable.class);
-        User tom = new User(null, 21, Sex.MALE, "tom@foo.bar");
-        Validator.of(tom).validate(User::getName, Objects::nonNull, "name cannot be null").get();
+        Validator.of(user).validate(User::getName, Objects::nonNull, "name cannot be null").get();
     }
 
     @Test
     public void testForInvalidAge() throws Throwable {
         thrown.expect(Throwable.class);
-        User john = new User("John", 17, Sex.MALE, "john@qwe.bar");
-        Validator.of(john).validate(User::getName, Objects::nonNull, "name cannot be null")
+        Validator.of(user).validate(User::getName, Objects::nonNull, "name cannot be null")
                 .validate(User::getAge, age -> age > 21, "user is underaged")
                 .get();
     }
 
     @Test
     public void testForValid() throws Throwable {
-        User sarah = new User("Sarah", 42, Sex.FEMALE, "mohammed@gmail.com");
-        User validated = Validator.of(sarah).validate(User::getName, Objects::nonNull, "name cannot be null")
+        User validated = Validator.of(user).validate(User::getName, Objects::nonNull, "name cannot be null")
                 .validate(User::getAge, age -> age > 21, "user is underaged")
-                .validate(User::getSex, sex -> sex == Sex.FEMALE, "user is not female")
+                .validate(User::getSex, sex -> sex == Sex.MALE, "user is not female")
                 .validate(User::getEmail, email -> email.contains("@"), "email does not contain @ sign")
                 .get();
-        Assert.assertSame(validated, sarah);
+        Assert.assertSame(validated, user);
     }
 
     @Test
@@ -76,18 +73,18 @@ public class MonadTest {
                 .validate(User::getAge, age -> age > 21, "user is underaged")
                 .OR()
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite");
-        System.out.println("testORCase1Valid : " + validator.isValid());
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
     public void testORCase2Valid() {
         Validator<User> validator = Validator.of(user)
-                .validate(User::getAge, age -> age > 21, "user is underaged")
+                .validate(User::getAge, age -> age > 51, "user is underaged")
                 .OR()
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
                 .OR()
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name");
-        System.out.println("testORCase2Valid : " + validator.isValid());
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
@@ -95,10 +92,10 @@ public class MonadTest {
         Validator<User> validator = Validator.of(user)
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
                 .OR()
-                .validate(User::getAge, age -> age > 21, "user is underaged")
+                .validate(User::getAge, age -> age > 91, "user is underaged")
                 .OR()
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammeds"), "invalid name");
-        System.out.println("testORCase3Valid : " + validator.isValid());
+        Assert.assertFalse(validator.isValid());
     }
 
     @Test
@@ -107,16 +104,16 @@ public class MonadTest {
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
                 .validate(User::getAge, age -> age > 91, "user is underaged")
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name");
-        System.out.println("testORCase4Valid : " + validator.isValid());
+        Assert.assertFalse(validator.isValid());
     }
 
     @Test
     public void testORCase5Valid() {
         Validator<User> validator = Validator.of(user)
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name")
-                .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
+                .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .validate(User::getAge, age -> age > 22, "user is underaged");
-        System.out.println("testORCase5Valid : " + validator.isValid());
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
@@ -127,7 +124,7 @@ public class MonadTest {
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
                 .OR()
                 .validate(User::getAge, age -> age > 92, "user is underaged");
-        System.out.println("testORCase6Valid : " + validator.isValid());
+        Assert.assertFalse(validator.isValid());
     }
 
     @Test
@@ -136,20 +133,20 @@ public class MonadTest {
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name")
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammeds"), "invalid name")
                 .OR()
-                .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
+                .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name");
-        System.out.println("testORCase7Valid : " + validator.isValid());
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
     public void testORCase8Valid() {
         Validator<User> validator = Validator.of(user)
-                .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name")
+                .validate(User::getName, name -> name.equalsIgnoreCase("Mohammeds"), "invalid name")
                 .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .OR()
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite")
                 .validate(User::getAge, age -> age > 92, "user is underaged");
-        System.out.println("testORCase8Valid : " + validator.isValid());
+        Assert.assertFalse(validator.isValid());
     }
 
     @Test
@@ -160,15 +157,15 @@ public class MonadTest {
                 .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .OR()
                 .validate(User::getAge, age -> age > 35, "user is underaged");
-        System.out.println("testORCase9Valid : " + validator.isValid());
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
     public void testORCase10Valid() {
         Validator<User> validator = Validator.of(user)
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name")
-                .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite");
-        System.out.println("testORCase10Valid : " + validator.isValid());
+                .validate(User::getSex, sex -> sex.equals(Sex.MALE));
+        Assert.assertTrue(validator.isValid());
     }
 
     @Test
@@ -176,6 +173,15 @@ public class MonadTest {
         Validator<User> validator = Validator.of(user)
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammeds"), "invalid name")
                 .validate(User::getSex, sex -> sex.equals(Sex.FEMALE), "sex is opposite");
-        System.out.println("testORCase11Valid : " + validator.isValid());
+        Assert.assertFalse(validator.isValid());
+    }
+
+    @Test
+    public void testORCase12Valid() {
+        Validator<User> validator = Validator.of(user)
+                .validate(User::getName, name -> name.equalsIgnoreCase("Mohammeds"), "invalid name")
+                .validate(User::getSex, sex -> sex.equals(Sex.FEMALE))
+                .validate(User::getAge, age -> age > 51, "user is underaged");
+        Assert.assertFalse(validator.isValid());
     }
 }
