@@ -135,6 +135,8 @@ public class MonadTest {
                 .OR()
                 .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .validate(User::getName, name -> name.equalsIgnoreCase("Mohammed"), "invalid name");
+
+
         Assert.assertTrue(validator.isValid());
     }
 
@@ -157,6 +159,7 @@ public class MonadTest {
                 .validate(User::getSex, sex -> sex.equals(Sex.MALE), "sex is opposite")
                 .OR()
                 .validate(User::getAge, age -> age > 35, "user is underaged");
+        validator.flush();
         Assert.assertTrue(validator.isValid());
     }
 
@@ -185,13 +188,4 @@ public class MonadTest {
         Assert.assertFalse(validator.isValid());
     }
 
-    @Test
-    public void testNormalWay() {
-        if (user.getName().equalsIgnoreCase("Mohamm") && user.getAge() > 51
-                || user.getEmail().contains("@")) {
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertFalse(false);
-        }
-    }
 }

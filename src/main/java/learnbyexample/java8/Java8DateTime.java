@@ -22,5 +22,9 @@ public class Java8DateTime {
 
         System.out.println(Timestamp.valueOf(sqlDate.toLocalDate().atStartOfDay()));
 
+        Object ssaas = -1;
+        long dff = (Integer) ssaas;
+        System.out.println(dff);
+
     }
 }
