@@ -4,8 +4,6 @@ import com.google.common.base.Splitter;
 
 import java.util.List;
 import java.util.Map;
-import java.util.Spliterator;
-import java.util.Spliterators;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -22,9 +20,17 @@ public class MapToOtherMap {
     }
 
     private static boolean found(String value, char mainSplitter, char firstKeyValueSplitter, char secondKeyValueSplitter, Predicate<Map.Entry<String, List<String>>> entryPredicate) {
-        Map<String, String> map = Splitter.on(mainSplitter).withKeyValueSeparator(firstKeyValueSplitter).split(value);
-        Map<String, List<String>> map1  = map.entrySet().stream().collect(Collectors.toMap(Map.Entry::getKey, v -> Splitter.on(secondKeyValueSplitter).splitToList(v.getValue())));
-       return map1
+        return Splitter
+                .on(mainSplitter)
+                .withKeyValueSeparator(firstKeyValueSplitter)
+                .split(value)
+                .entrySet()
+                .stream()
+                .collect(Collectors
+                        .toMap(Map.Entry::getKey,
+                                v -> Splitter
+                                .on(secondKeyValueSplitter)
+                                .splitToList(v.getValue())))
                 .entrySet()
                 .stream()
                 .anyMatch(entryPredicate);
