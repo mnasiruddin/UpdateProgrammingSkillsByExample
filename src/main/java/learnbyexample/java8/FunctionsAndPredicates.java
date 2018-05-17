@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
+import java.util.function.BiPredicate;
 import java.util.function.DoubleFunction;
 import java.util.function.DoubleUnaryOperator;
 import java.util.function.Function;
@@ -59,7 +61,27 @@ public class FunctionsAndPredicates {
 
         Optional<Map.Entry<String, String>> list = myMap.entrySet().stream().filter(predicateString.and(predicateString2)).findFirst();
         list.ifPresent(l -> System.out.println(l.getValue()));
-
+        testPredicateComposing();
     }
 
+    public static void testPredicateComposing() {
+        BiPredicate<String, String> predicate = (string1, string2) -> string1.isEmpty();
+        predicate.and((string1, string2) -> string2.equalsIgnoreCase("johns"));
+        System.out.println(predicate.negate().test("nas", "john"));
+    }
+
+    private Predicate<String> validString() {
+        Predicate<String> messageDataPredicate = string -> string.isEmpty();
+        messageDataPredicate
+                .and(string -> string.equalsIgnoreCase("dfd"))
+                .negate();
+        return messageDataPredicate;
+    }
+
+    private Predicate<Integer> validInteger() {
+        Predicate<Integer> resultPredicate = integer -> Objects.nonNull(integer);
+        resultPredicate
+                .and(integer -> !(integer > 5));
+        return resultPredicate;
+    }
 }

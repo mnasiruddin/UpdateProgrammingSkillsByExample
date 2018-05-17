@@ -13,7 +13,6 @@ public class ReadFile {
 
     public static void main(String[] args) {
         try {
-
             InputStream inputStream = ReadFile.class.getClassLoader().getResourceAsStream("VehAvailResponse.xml");
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
