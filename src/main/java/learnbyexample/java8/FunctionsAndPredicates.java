@@ -1,8 +1,7 @@
 package learnbyexample.java8;
 
-import com.google.common.collect.ImmutableMap;
-
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -31,17 +30,19 @@ public class FunctionsAndPredicates {
     private static final List<String> strings = Arrays.asList("A", "B", "C");
     private static final List<Integer> numbers = Arrays.asList(2, 4, 6);
     private static final Integer ints = 3;
-    private static final Map<String, String> myMap = ImmutableMap.<String, String>builder()
-            .put("key1", "value1")
-            .put("key2", "value2")
-            .put("key3", "value3")
-            .put("key4", "value4")
-            .put("key5", "value5")
-            .put("key6", "value6")
-            .put("key7", "value7")
-            .put("key8", "value8")
-            .put("key9", "value9")
-            .build();
+    private static final Map<String, String> myMap = new HashMap<>();
+    static {
+            myMap.put("key1", "value1");
+        myMap.put("key2", "value2");
+        myMap.put("key3", "value3");
+        myMap.put("key4", "value4");
+        myMap.put("key5", "value5");
+        myMap.put("key6", "value6");
+        myMap.put("key7", "value7");
+        myMap.put("key8", "value8");
+        myMap.put("key9", "value9");
+    }
+
 
     public static void main(String... args) {
         /*System.out.println(curriedAddDouble.apply(5).applyAsDouble(5));

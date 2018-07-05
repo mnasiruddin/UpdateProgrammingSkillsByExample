@@ -6,13 +6,7 @@ apply plugin: 'java'
 sourceCompatibility = 1.8
 
 repositories {
-    maven {
-        credentials {
-            username = "$mavenUser"
-            password = "$mavenPassword"
-        }
-        url "http://nexus.cartrawler.com:8081/repository/maven-public"
-    }
+    mavenCentral()
 }
 
 dependencies {
@@ -20,6 +14,7 @@ dependencies {
     compile 'org.eclipse.collections:eclipse-collections-api:9.0.0'
     compile 'org.eclipse.collections:eclipse-collections:9.0.0'
     compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.1.7'
+    compile group: 'com.google.collections', name: 'google-collections', version: '1.0'
     compile('com.google.cloud:google-cloud-translate:0.19.0-beta')
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
     compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-jaxb-annotations', version: '2.9.4'
