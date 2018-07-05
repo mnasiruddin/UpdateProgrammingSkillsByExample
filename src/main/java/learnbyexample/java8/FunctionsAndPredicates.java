@@ -61,6 +61,18 @@ public class FunctionsAndPredicates {
         Optional<Map.Entry<String, String>> list = myMap.entrySet().stream().filter(predicateString.and(predicateString2)).findFirst();
         list.ifPresent(l -> System.out.println(l.getValue()));
         testPredicateComposing();
+        testSinglePredicateCompose();
+        System.out.println("checkIfAnyNullOrEmpty :" + checkIfAnyNullOrEmpty("sa", "dsfdd"));
+    }
+
+    private static void testSinglePredicateCompose() {
+        Predicate<Boolean> predicate = (vo) -> true;
+        predicate = predicate
+        .and(voi -> true)
+                .and(voi -> true)
+                .or(voi -> false)
+                .or(voi -> false);
+        System.out.println("predicate " + predicate.test(null));
     }
 
     public static void testPredicateComposing() {
@@ -82,5 +94,14 @@ public class FunctionsAndPredicates {
         resultPredicate
                 .and(integer -> !(integer > 5));
         return resultPredicate;
+    }
+
+    public static boolean checkIfAnyNullOrEmpty(String... arg) {
+        Predicate<String> predicate = FunctionsAndPredicates::empty;
+        return Arrays.stream(arg).anyMatch(predicate);
+    }
+
+    public static boolean empty(String string) {
+        return (string == null || string.isEmpty());
     }
 }

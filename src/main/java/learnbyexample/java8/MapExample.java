@@ -27,5 +27,7 @@ public class MapExample {
         System.out.println("map2 : " + map2.values());
         map2.compute("ALL Null", (param1, param2) -> null);
         System.out.println("map2 New : " + map2.values());
+
+        String as = map.keySet().stream().filter(key -> key.equalsIgnoreCase("dddfd")).findFirst().orElse( "");
     }
 }

@@ -7,6 +7,7 @@ import java.util.OptionalInt;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -19,6 +20,23 @@ public class CompletableFutureExample {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException, TimeoutException {
         //testCompletableFutureSingle();
+
+        System.out.println("Started with Thread activeCount " + Thread.activeCount());
+        asyncCompletableFuture();
+        Thread.sleep(10000);
+        System.out.println("Ended with Thread activeCount " + Thread.activeCount());
+        System.out.println("Ended with Thread activeCount " + Thread.currentThread());
+        System.out.println("Ended with Thread name " + Thread.currentThread().getName());
+        System.out.println("Ended with Thread state " + Thread.currentThread().getState().name());
+        System.out.println("Ended with Thread Id " + Thread.currentThread().getId());
+        Thread.currentThread().interrupt();
+        System.out.println("Lately Ended with Thread activeCount " + Thread.activeCount());
+        //composeFutures();
+
+        //Thread.sleep(1000);
+    }
+
+    private static void composeFutures() {
         List<CompletableFuture<String>> completableFutures = Lists.newArrayList();
         completableFutures.add(CompletableFuture.supplyAsync(() -> strings1.findAny().orElse(null)));
         completableFutures.add(CompletableFuture.supplyAsync(() -> strings2.findAny().orElse(null)));
@@ -34,8 +52,30 @@ public class CompletableFutureExample {
             list.forEach(System.out::println);
             return list;
         });
+    }
 
-        //Thread.sleep(1000);
+    private static void asyncCompletableFuture() {
+        AtomicInteger i = new AtomicInteger(30);
+        while (true) {
+            int num = i.decrementAndGet();
+            System.out.println("num" + num);
+            if (num == 1) {
+                break;
+            }
+            String val = "nasir"+num;
+            CompletableFuture.runAsync(() -> {
+                if (val.equalsIgnoreCase("nasir9")) {
+                    System.out.println("I am Nine");
+                } else if (val.equalsIgnoreCase("nasir8")) {
+                    System.out.println("I am eight");
+                }
+                System.out.println(val);
+                System.out.println("Thread activeCount " + Thread.activeCount());
+                System.out.println("Thread Name " + Thread.currentThread().getName());
+            });
+        }
+        System.out.println("Main Thread activeCount " + Thread.activeCount());
+        System.out.println("Main Thread Name " + Thread.currentThread().getName());
     }
 
     private static void testCompletableFutureSingle() throws InterruptedException, ExecutionException {
