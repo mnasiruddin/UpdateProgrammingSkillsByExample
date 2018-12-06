@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="id">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Young Driver Surcharge"/>
+        <xs:enumeration value="Child Seat"/>
+        <xs:enumeration value="High Back Booster"/>
+        <xs:enumeration value="Infant Car Seat"/>
+        <xs:enumeration value="Enhanced Roadside Assistance"/>
+        <xs:enumeration value="PTA NAVI"/>
+        <xs:enumeration value="PTA PLUS"/>
+        <xs:enumeration value="Additional Driver"/>
+        <xs:enumeration value="Satellite Navigation Units"/>
+        <xs:enumeration value="Cross Border to N.I. Only"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="price">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="maxCharge">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="nil" use="optional"/>
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="priceType">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="ByDay"/>
+        <xs:enumeration value="Total"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="multiple">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute type="xs:string" name="type" use="optional"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sixt-api-v2-entities-product">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="price"/>
+        <xs:element ref="maxCharge"/>
+        <xs:element ref="priceType"/>
+        <xs:element ref="multiple"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sixt-api-v2-entities-products">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="sixt-api-v2-entities-product" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="type"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

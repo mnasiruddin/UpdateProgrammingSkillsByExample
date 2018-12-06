@@ -1,0 +1,350 @@
+<OTA_VehAvailRateRS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" AltLangID="EN" PrimaryLangID="IT" Version="5.000" xmlns="http://www.opentravel.org/OTA/2003/05">
+  <Success />
+  <VehAvailRSCore>
+    <VehVendorAvails>
+      <VehVendorAvail>
+        <Vendor />
+        <VehAvails RatePeriod="Daily">
+          <VehAvail>
+            <VehAvailCore Status="OnRequest">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="1" />
+                <VehMakeModel Name="Gruppo A" Code="A-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="57.71" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="13:14575:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+          <VehAvail>
+            <VehAvailCore Status="Available">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="1" />
+                <VehMakeModel Name="Gruppo A2" Code="A2-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="86.55" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="36:14579:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+          <VehAvail>
+            <VehAvailCore Status="Available">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="2" />
+                <VehMakeModel Name="Gruppo B" Code="B-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="75.01" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="12:14580:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+          <VehAvail>
+            <VehAvailCore Status="OnRequest">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="3" />
+                <VehMakeModel Name="Gruppo C" Code="C-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="80.78" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="5:14581:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+          <VehAvail>
+            <VehAvailCore Status="OnRequest">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="4" />
+                <VehMakeModel Name="Gruppo D" Code="D-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="92.32" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="6:14582:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+          <VehAvail>
+            <VehAvailCore Status="Available">
+              <Vehicle FuelType="Unspecified" AirConditionInd="true">
+                <VehType VehicleCategory="1" />
+                <VehClass Size="5" />
+                <VehMakeModel Name="Gruppo E" Code="E-0" />
+              </Vehicle>
+              <RentalRate>
+                <RateDistance Unlimited="true" />
+                <VehicleCharges>
+                  <VehicleCharge CurrencyCode="EUR" TaxInclusive="true" Amount="103.86" Purpose="1" />
+                </VehicleCharges>
+              </RentalRate>
+              <PricedEquips>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="10">
+                    <Description>Snow Chains (d)</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="4.03" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="7">
+                    <Description>Baby Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="50.81" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="4">
+                    <Description>Sky Rack</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="30" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="13">
+                    <Description>Navigational System</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="90" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="8">
+                    <Description>Child Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="35.58" />
+                </PricedEquip>
+                <PricedEquip Required="false">
+                  <Equipment EquipType="9">
+                    <Description>Booster Seat</Description>
+                  </Equipment>
+                  <Charge IncludedInRate="false" CurrencyCode="EUR" TaxInclusive="true" Amount="42.7" />
+                </PricedEquip>
+              </PricedEquips>
+              <Reference ID="7:14583:0:0" Type="16" />
+            </VehAvailCore>
+          </VehAvail>
+        </VehAvails>
+        <Info>
+          <LocationDetails Code="001" Name="Bologna Airport">
+            <Address>
+              <StreetNmbr RuralRouteNmbr="84" />
+              <AddressLine>VIA DEL TRIUMVIRATO </AddressLine>
+              <CityName>BOLOGNA</CityName>
+              <PostalCode>40132</PostalCode>
+              <StateProv StateCode="BO" />
+              <CountryName Code="IT" />
+            </Address>
+            <Telephone PhoneNumber="051/6472452" />
+          </LocationDetails>
+        </Info>
+      </VehVendorAvail>
+    </VehVendorAvails>
+  </VehAvailRSCore>
+  <VehAvailRSInfo />
+</OTA_VehAvailRateRS>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://toprentacar.bg/xml/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RateID" type="xs:string"/>
+  <xs:element name="ACRISS" type="xs:string"/>
+  <xs:element name="Availability" type="xs:string"/>
+  <xs:element name="NetRate" type="xs:string"/>
+  <xs:element name="Delivery" type="xs:string"/>
+  <xs:element name="OutOfHours" type="xs:string"/>
+  <xs:element name="TotalCost" type="xs:string"/>
+  <xs:element name="CurrencyCode" type="xs:string"/>
+  <xs:element name="CarName" type="xs:string"/>
+  <xs:element name="Seats">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="5"/>
+        <xs:enumeration value="9"/>
+        <xs:enumeration value="4"/>
+        <xs:enumeration value="7"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="Doors">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="5"/>
+        <xs:enumeration value="4"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="Gearbox">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="m"/>
+        <xs:enumeration value="a"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="BagsBig">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="2"/>
+        <xs:enumeration value="1"/>
+        <xs:enumeration value="3"/>
+        <xs:enumeration value="4"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="AirCon" type="xs:string"/>
+  <xs:element name="WheelDrive">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="fwd"/>
+        <xs:enumeration value="4x4"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="Fuel">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="petrol"/>
+        <xs:enumeration value="diesel"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="RequestRate" type="xs:string"/>
+  <xs:element name="Count" type="xs:string"/>
+  <xs:element name="Rate">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x/:RateID" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:ACRISS" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Availability" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:NetRate" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Delivery" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:OutOfHours" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:TotalCost" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:CurrencyCode" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:CarName" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Seats" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Doors" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Gearbox" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:BagsBig" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:AirCon" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:WheelDrive" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Fuel" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:RequestRate" xmlns:x/="http://toprentacar.bg/xml/"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ResRates">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x/:Count" xmlns:x/="http://toprentacar.bg/xml/"/>
+        <xs:element ref="x/:Rate" maxOccurs="unbounded" minOccurs="0" xmlns:x/="http://toprentacar.bg/xml/"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="success"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="x/:ResRates" xmlns:x/="http://toprentacar.bg/xml/"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="version"/>
+      <xs:attribute type="xs:string" name="regardingReferenceNumber"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

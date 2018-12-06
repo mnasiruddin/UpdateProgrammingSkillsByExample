@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPatterns_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPatterns_main.iml" group="DesignPatterns" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DesignPatterns_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DesignPatterns_test.iml" group="DesignPatterns" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LearnJavaingByExample.iml" filepath="$PROJECT_DIR$/.idea/modules/LearnJavaingByExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearnJavaingByExample.iml" filepath="$PROJECT_DIR$/LearnJavaingByExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LearnJavaingByExample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/LearnJavaingByExample_main.iml" group="LearnJavaingByExample" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LearnJavaingByExample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/LearnJavaingByExample_test.iml" group="LearnJavaingByExample" />
     </modules>

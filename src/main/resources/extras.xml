@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sixt-api-v2-entities-products type="array">
+    <sixt-api-v2-entities-product>
+        <id type="integer">8</id>
+        <name>Young Driver Surcharge</name>
+        <price type="float">38.0</price>
+        <maxCharge nil="true"/>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">true</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">16</id>
+        <name>Child Seat</name>
+        <price type="float">15.0</price>
+        <maxCharge type="float">75.0</maxCharge>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">true</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">17</id>
+        <name>High Back Booster</name>
+        <price type="float">15.0</price>
+        <maxCharge type="float">45.0</maxCharge>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">true</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">15</id>
+        <name>Infant Car Seat</name>
+        <price type="float">15.0</price>
+        <maxCharge type="float">75.0</maxCharge>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">true</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">12</id>
+        <name>Enhanced Roadside Assistance</name>
+        <price type="float">5.0</price>
+        <maxCharge nil="true"/>
+        <priceType>Total</priceType>
+        <multiple type="boolean">false</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">23</id>
+        <name>PTA NAVI</name>
+        <price type="float">14.0</price>
+        <maxCharge nil="true"/>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">false</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">24</id>
+        <name>PTA PLUS</name>
+        <price type="float">19.0</price>
+        <maxCharge nil="true"/>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">false</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">7</id>
+        <name>Additional Driver</name>
+        <price type="float">10.5</price>
+        <maxCharge nil="true"/>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">true</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">18</id>
+        <name>Satellite Navigation Units</name>
+        <price type="float">12.0</price>
+        <maxCharge nil="true"/>
+        <priceType>ByDay</priceType>
+        <multiple type="boolean">false</multiple>
+    </sixt-api-v2-entities-product>
+    <sixt-api-v2-entities-product>
+        <id type="integer">9</id>
+        <name>Cross Border to N.I. Only</name>
+        <price type="float">34.0</price>
+        <maxCharge nil="true"/>
+        <priceType>Total</priceType>
+        <multiple type="boolean">false</multiple>
+    </sixt-api-v2-entities-product>
+</sixt-api-v2-entities-products>

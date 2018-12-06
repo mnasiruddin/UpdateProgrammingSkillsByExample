@@ -1,7 +1,8 @@
 package learnbyexample.java8;
 
-import org.eclipse.collections.api.map.ImmutableMap;
-import org.eclipse.collections.impl.factory.Maps;
+import com.google.common.base.Joiner;
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.Maps;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,6 +11,17 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class MapObjectToMapString {
+
+    private static final List<String> AU_STATE_CODES = new ImmutableList.Builder<String>()
+            .add("NSW")
+            .add("QLD")
+            .add("SA")
+            .add("TAS")
+            .add("VIC")
+            .add("WA")
+            .add("ACT")
+            .add("NT")
+            .build();
 
     public static void main(String[] args) {
 
@@ -25,10 +37,15 @@ public class MapObjectToMapString {
         mapList.add(mapOne);
         mapList.add(mapTwo);
 
-        List<ImmutableMap<String, String>> collect = mapList.stream()
-                .flatMap(map -> map.entrySet().stream().map(t -> Maps.immutable.of(t.getKey(), String.valueOf(t.getValue()))))
+        final List<Map.Entry<String, String>> collect = mapList.stream()
+                .flatMap(map -> map.entrySet().stream().map(t -> Maps.immutableEntry(t.getKey(), String.valueOf(t.getValue()))))
                 .collect(Collectors.toList());
 
-        collect.forEach(map -> map.forEachKeyValue((key, value) -> System.out.println("Key : " + key + " value : " + value)));
+
+        System.out.println(Joiner.on(",").join(AU_STATE_CODES));
+
+        System.out.println(AU_STATE_CODES.contains(""));
+        System.out.println(AU_STATE_CODES.contains(null));
+
     }
 }

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+    <quote-id>dfc3c22a9065816650ac</quote-id>
+    <booking-id type="integer">5800045</booking-id>
+    <carGroup>
+        <vechicles>Ford Ka, Fiat Panda, Daihatsu Charade, Toyota Aygo</vechicles>
+        <image type="Paperclip::Attachment">/system/car_groups/images/000/000/001/original/KA_3DR.jpg?1511529436</image>
+        <code>MCMN,A1</code>
+    </carGroup>
+    <totalAmount type="float">59.49</totalAmount>
+    <status>Available</status>
+    <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+    <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+    <pickUpLocation>
+        <code>dbs</code>
+        <name>Dublin City Sth</name>
+    </pickUpLocation>
+    <returnLocation>
+        <code>dbc</code>
+        <name>Dublin City Centre</name>
+    </returnLocation>
+    <requestedExtras type="array"/>
+    <includedProducts type="array">
+        <includedProduct>
+            <id type="integer">10</id>
+            <name>Third Party Insurance</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">11</id>
+            <name>Excess Mileage</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">2</id>
+            <name>Theft Protection</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">22</id>
+            <name>Collision Damage Waiver</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">13</id>
+            <name>Road Tax</name>
+            <price type="float">2.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">14</id>
+            <name>Premium Location Charge</name>
+            <price type="float">28.0</price>
+            <maxCharge nil="true"/>
+            <priceType>Total</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+    </includedProducts>
+</hash>

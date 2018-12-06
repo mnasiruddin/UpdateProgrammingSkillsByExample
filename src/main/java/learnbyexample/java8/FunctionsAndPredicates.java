@@ -57,6 +57,13 @@ public class FunctionsAndPredicates {
 
         //System.out.println(numbers.stream().reduce(ints, (a, b) -> a + b, (a, b) -> a * b));
 
+        Predicate<String> predicate = carAgentAvailabilityResult -> "ABC".equalsIgnoreCase(carAgentAvailabilityResult);
+        predicate = predicate.negate()
+                .or(carAgentAvailabilityResult -> !carAgentAvailabilityResult.isEmpty()).negate();
+
+        System.out.println("predicate" + predicate.test("ABC"));
+
+
         System.out.println(sum.compose(sum1).apply(5));
 
         Optional<Map.Entry<String, String>> list = myMap.entrySet().stream().filter(predicateString.and(predicateString2)).findFirst();

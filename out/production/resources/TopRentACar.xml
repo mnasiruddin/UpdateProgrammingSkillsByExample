@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Response [
+        <!ELEMENT Response (ResRates)*>
+        <!ATTLIST Response
+                xmlns CDATA #REQUIRED
+                version CDATA #REQUIRED
+                regardingReferenceNumber CDATA #REQUIRED>
+        <!ELEMENT ResRates (Count|Rate)*>
+        <!ATTLIST ResRates
+                success CDATA #REQUIRED>
+        <!ELEMENT Count (#PCDATA)>
+        <!ELEMENT Rate (RateID|ACRISS|Availability|NetRate|Delivery|OutOfHours|TotalCost|CurrencyCode|CarName|Seats|Doors|Gearbox|BagsBig|AirCon|WheelDrive|Fuel|RequestRate)*>
+        <!ELEMENT RateID (#PCDATA)>
+        <!ELEMENT ACRISS (#PCDATA)>
+        <!ELEMENT Availability (#PCDATA)>
+        <!ELEMENT NetRate (#PCDATA)>
+        <!ELEMENT Delivery (#PCDATA)>
+        <!ELEMENT OutOfHours (#PCDATA)>
+        <!ELEMENT TotalCost (#PCDATA)>
+        <!ELEMENT CurrencyCode (#PCDATA)>
+        <!ELEMENT CarName (#PCDATA)>
+        <!ELEMENT Seats (#PCDATA)>
+        <!ELEMENT Doors (#PCDATA)>
+        <!ELEMENT Gearbox (#PCDATA)>
+        <!ELEMENT BagsBig (#PCDATA)>
+        <!ELEMENT AirCon (#PCDATA)>
+        <!ELEMENT WheelDrive (#PCDATA)>
+        <!ELEMENT Fuel (#PCDATA)>
+        <!ELEMENT RequestRate (#PCDATA)>
+        ]>
+<Response xmlns="http://toprentacar.bg/xml/" version="3.0" regardingReferenceNumber="23de0a9186adf56b3e580b7eb2c9ab89">
+    <ResRates success="true">
+        <Count>16</Count>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>CDMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>196.80</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>216.80</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Ford Focus</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnV28Q1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>CFMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>221.40</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>241.40</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Renault Captur Tce + NAVI</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnV28w1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>DDMV</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>270.60</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>290.60</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>VW Golf + GPS</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnVx8Q1TK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>EDAH</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>258.30</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>278.30</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Toyota Yaris AUT Hybrid</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>1</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnV1cfRQK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>EDMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>135.30</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>155.30</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Ford Fiesta</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>1</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnV18Q1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>EWMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>209.10</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>229.10</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Renault Clio IV Grand Tour + NAVI</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>3</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnUN9w1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>FDAR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>664.20</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>684.20</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>VW Passat AUT + NAVI</CarName>
+            <Seats>5</Seats>
+            <Doors>4</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnVzcQxSK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>FFAR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>1254.60</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>1274.60</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>VW Touareg AUT + NAVI</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>4x4</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnVzcwxSK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>FVMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>713.40</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>733.40</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Ford Custom 9 seats</CarName>
+            <Seats>9</Seats>
+            <Doors>4</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>4</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnUL8w1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>FWMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>344.40</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>364.40</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>VW Passat Estate + NAVI</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>3</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutnUL9w1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>HDMV</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>221.40</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>241.40</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>VW Polo + GPS</CarName>
+            <Seats>4</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>1</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvVw8Q1TK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>IDAR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>307.50</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>327.50</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Toyota Corolla AUT</CarName>
+            <Seats>5</Seats>
+            <Doors>4</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvV0cQxSK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>IFAR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>565.80</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>585.80</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Nissan Qashqai AUT</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>2</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvV0cwxSK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>IVMR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>332.10</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>352.10</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Toyota Verso 7 seats</CarName>
+            <Seats>7</Seats>
+            <Doors>5</Doors>
+            <Gearbox>m</Gearbox>
+            <BagsBig>1</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvUM8w1SK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>LDAR</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>1672.80</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>1692.80</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Merdeces E-class + GPS</CarName>
+            <Seats>5</Seats>
+            <Doors>4</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>3</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>diesel</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvVxcQxSK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+        <Rate>
+            <RateID>top_price</RateID>
+            <ACRISS>LDBE</ACRISS>
+            <Availability>Available</Availability>
+            <NetRate>3136.50</NetRate>
+            <Delivery>50.00</Delivery>
+            <OutOfHours>20.00</OutOfHours>
+            <TotalCost>3156.50</TotalCost>
+            <CurrencyCode>EUR</CurrencyCode>
+            <CarName>Tesla Model S 75D</CarName>
+            <Seats>5</Seats>
+            <Doors>5</Doors>
+            <Gearbox>a</Gearbox>
+            <BagsBig>3</BagsBig>
+            <AirCon>1</AirCon>
+            <WheelDrive>fwd</WheelDrive>
+            <Fuel>petrol</Fuel>
+            <RequestRate>y0yxNbQwN7e0NDFTS0wuyiwutvVxcXJVK0osSY3PTLEtyS-ILyjKTE4FAA</RequestRate>
+        </Rate>
+    </ResRates>
+</Response>

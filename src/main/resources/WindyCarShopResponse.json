@@ -1,0 +1,2046 @@
+{
+  "RETURNCODE": "0",
+  "MESSAGE": "",
+  "VEHICLES": [
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai i20, Nissan Micra or similar..",
+      "VEHICLEID": 2,
+      "VEHICLENAME": "Hyundai i20, Nissan Micra or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 21   ;  Minimum Driver License : 1 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "EDMR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 21,
+      "VENDORMINDRIVINGLICENSEAGE": 1,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 14.64,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 29.28,
+      "DAILYPRICEPAYNOW": 14.64,
+      "TOTALPRICEPAYNOW": 29.28,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/2-51-52-hyundai-i20-nissan-micra-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/2-53-11-hyundai-i20-nissan-micra-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Hatchback 5 Doors",
+      "VEHICLETYPEID": 4,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Economic",
+      "VEHICLECATEGORYID": 1,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "3 Luggages",
+      "BAGGAGEQUANTITYID": 3,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Volkswagen Polo, Hyundai i20 or similar..",
+      "VEHICLEID": 17,
+      "VEHICLENAME": "Volkswagen Polo, Hyundai i20 or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 21   ;  Minimum Driver License : 1 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "HDMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 21,
+      "VENDORMINDRIVINGLICENSEAGE": 1,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 16.12,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 32.24,
+      "DAILYPRICEPAYNOW": 16.12,
+      "TOTALPRICEPAYNOW": 32.24,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/17-4-3-volkswagen-polo-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/17-4-12-volkswagen-polo-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Hatchback 5 Doors",
+      "VEHICLETYPEID": 4,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Economic",
+      "VEHICLECATEGORYID": 1,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "3 Luggages",
+      "BAGGAGEQUANTITYID": 3,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Peugeot 301 or similar",
+      "VEHICLEID": 3,
+      "VEHICLENAME": "Peugeot 301 or similar",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 21   ;  Minimum Driver License : 1 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "EDMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 21,
+      "VENDORMINDRIVINGLICENSEAGE": 1,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 16.13,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 32.26,
+      "DAILYPRICEPAYNOW": 16.13,
+      "TOTALPRICEPAYNOW": 32.26,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/3-50-34-fiat-linea-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/3-2-15-fiat-linea-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Economic",
+      "VEHICLECATEGORYID": 1,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai Accent Blue or similar............. FREE GPS",
+      "VEHICLEID": 5,
+      "VEHICLENAME": "Hyundai Accent Blue or similar............. FREE GPS",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 23   ;  Minimum Driver License : 2 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IDMR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 23,
+      "VENDORMINDRIVINGLICENSEAGE": 2,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 16.74,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 33.48,
+      "DAILYPRICEPAYNOW": 16.74,
+      "TOTALPRICEPAYNOW": 33.48,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        },
+        {
+          "RENTALCONDITIONNAME": "FREE GPS"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/5-10-51-renault-fluence-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/5-10-58-renault-fluence-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai Accent Blue, Fiat Egea or similar..",
+      "VEHICLEID": 6,
+      "VEHICLENAME": "Hyundai Accent Blue, Fiat Egea or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 23   ;  Minimum Driver License : 2 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IDMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 23,
+      "VENDORMINDRIVINGLICENSEAGE": 2,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 17.28,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 34.56,
+      "DAILYPRICEPAYNOW": 17.28,
+      "TOTALPRICEPAYNOW": 34.56,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/6-55-16-hyundai-accent-blue-fiat-egea-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/6-55-27-hyundai-accent-blue-fiat-egea-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Ford Focus or similar..",
+      "VEHICLEID": 7,
+      "VEHICLENAME": "Ford Focus or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 23   ;  Minimum Driver License : 2 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IDAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 23,
+      "VENDORMINDRIVINGLICENSEAGE": 2,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 19.26,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 38.52,
+      "DAILYPRICEPAYNOW": 19.26,
+      "TOTALPRICEPAYNOW": 38.52,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/7-16-47-ford-focus-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/7-5-18-ford-focus-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai i20, Nissan Micra or similar..",
+      "VEHICLEID": 4,
+      "VEHICLENAME": "Hyundai i20, Nissan Micra or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 21   ;  Minimum Driver License : 1 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "EDAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 21,
+      "VENDORMINDRIVINGLICENSEAGE": 1,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 19.26,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 38.52,
+      "DAILYPRICEPAYNOW": 19.26,
+      "TOTALPRICEPAYNOW": 38.52,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/4-8-15-hyundai-i20-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/4-8-26-hyundai-i20-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Hatchback 5 Doors",
+      "VEHICLETYPEID": 4,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Economic",
+      "VEHICLECATEGORYID": 1,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "3 Luggages",
+      "BAGGAGEQUANTITYID": 3,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai Accent Blue, Fiat Egea or similar..",
+      "VEHICLEID": 8,
+      "VEHICLENAME": "Hyundai Accent Blue, Fiat Egea or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 23   ;  Minimum Driver License : 2 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IDAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 23,
+      "VENDORMINDRIVINGLICENSEAGE": 2,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 19.89,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 39.78,
+      "DAILYPRICEPAYNOW": 19.89,
+      "TOTALPRICEPAYNOW": 39.78,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/8-10-40-hyundai-accent-blue-ve-benzeri.jpg"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/8-6-46-hyundai-accent-blue-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Toyota Corolla, Ford Focus or similar..",
+      "VEHICLEID": 22,
+      "VEHICLENAME": "Toyota Corolla, Ford Focus or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 23   ;  Minimum Driver License : 2 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "FDMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 23,
+      "VENDORMINDRIVINGLICENSEAGE": 2,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 20.7,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 41.4,
+      "DAILYPRICEPAYNOW": 20.7,
+      "TOTALPRICEPAYNOW": 41.4,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/22-0-14-toyota-corolla-ford-focus-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/22-0-27-toyota-corolla-ford-focus-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "4 Luggages",
+      "BAGGAGEQUANTITYID": 4,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai Elantra, Renault Megane or similar..",
+      "VEHICLEID": 9,
+      "VEHICLENAME": "Hyundai Elantra, Renault Megane or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 25   ;  Minimum Driver License : 3 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "FDAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 25,
+      "VENDORMINDRIVINGLICENSEAGE": 3,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 21.18,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 42.36,
+      "DAILYPRICEPAYNOW": 21.18,
+      "TOTALPRICEPAYNOW": 42.36,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/9-23-28-hyundai-elantra-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/9-8-20-hyundai-elantra-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Full Size",
+      "VEHICLECATEGORYID": 8,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "5 Luggages",
+      "BAGGAGEQUANTITYID": 5,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Seat Leon, Hyundai i30 or similar..",
+      "VEHICLEID": 19,
+      "VEHICLENAME": "Seat Leon, Hyundai i30 or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 25   ;  Minimum Driver License : 3 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "JDAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 25,
+      "VENDORMINDRIVINGLICENSEAGE": 3,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 22.18,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 44.36,
+      "DAILYPRICEPAYNOW": 22.18,
+      "TOTALPRICEPAYNOW": 44.36,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Unlimited Milage (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/19-18-41-seat-leon-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/19-10-15-seat-leon-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Hatchback 5 Doors",
+      "VEHICLETYPEID": 4,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "3 Luggages",
+      "BAGGAGEQUANTITYID": 3,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai New Elantra, Renault Megane or similar..",
+      "VEHICLEID": 10,
+      "VEHICLENAME": "Hyundai New Elantra, Renault Megane or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 25   ;  Minimum Driver License : 3 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "FDAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 25,
+      "VENDORMINDRIVINGLICENSEAGE": 3,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 22.33,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 44.66,
+      "DAILYPRICEPAYNOW": 22.33,
+      "TOTALPRICEPAYNOW": 44.66,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/10-24-49-hyundai-elantra-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/10-24-55-hyundai-elantra-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "5 Luggages",
+      "BAGGAGEQUANTITYID": 5,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Nissan Juke or similar..",
+      "VEHICLEID": 12,
+      "VEHICLENAME": "Nissan Juke or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IFAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 34.54,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 69.08,
+      "DAILYPRICEPAYNOW": 34.54,
+      "TOTALPRICEPAYNOW": 69.08,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/12-57-52-nissan-juke-ve-benzeri.jpg"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/12-13-21-nissan-juke-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "SUV/Jeep",
+      "VEHICLETYPEID": 7,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "SUV(4x4)",
+      "VEHICLECATEGORYID": 6,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "6 Luggages",
+      "BAGGAGEQUANTITYID": 6,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Hyundai Tucson, Nissan Qashqai or similar..",
+      "VEHICLEID": 13,
+      "VEHICLENAME": "Hyundai Tucson, Nissan Qashqai or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "FFAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 39.06,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 78.12,
+      "DAILYPRICEPAYNOW": 39.06,
+      "TOTALPRICEPAYNOW": 78.12,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/13-31-19-hyundai-tucson-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/13-14-34-hyundai-tucson-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "SUV/Jeep",
+      "VEHICLETYPEID": 7,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "SUV(4x4)",
+      "VEHICLECATEGORYID": 6,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "6 Luggages",
+      "BAGGAGEQUANTITYID": 6,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Dacia Lodgy Laurate or similar..",
+      "VEHICLEID": 11,
+      "VEHICLENAME": "Dacia Lodgy Laurate or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 25   ;  Minimum Driver License : 3 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "IVMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 25,
+      "VENDORMINDRIVINGLICENSEAGE": 3,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 52.93,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 105.86,
+      "DAILYPRICEPAYNOW": 52.93,
+      "TOTALPRICEPAYNOW": 105.86,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/11-11-48-dacia-lodgy-laurate-ve-benzeri.jpg"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/11-12-18-dacia-lodgy-laurate-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "SUV/Jeep",
+      "VEHICLETYPEID": 7,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Intermediate",
+      "VEHICLECATEGORYID": 7,
+      "PASSENGERQUANTITY": "7 Person",
+      "PASSENGERQUANTITYID": 5,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "5 Luggages",
+      "BAGGAGEQUANTITYID": 5,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Mercedes C180 AMG or similar..",
+      "VEHICLEID": 14,
+      "VEHICLENAME": "Mercedes C180 AMG or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "LDAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 71.25,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 142.5,
+      "DAILYPRICEPAYNOW": 71.25,
+      "TOTALPRICEPAYNOW": 142.5,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/14-37-51-mercedes-c180-amg-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/14-16-25-mercedes-c180-amg-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Luxury",
+      "VEHICLECATEGORYID": 4,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "5 Luggages",
+      "BAGGAGEQUANTITYID": 5,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Mercedes GLA 200 AMG or similar..",
+      "VEHICLEID": 18,
+      "VEHICLENAME": "Mercedes GLA 200 AMG or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "PFAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 78.86,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 157.72,
+      "DAILYPRICEPAYNOW": 78.86,
+      "TOTALPRICEPAYNOW": 157.72,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 1,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/18-36-23-mercedes-gla-200-amg-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/18-15-25-mercedes-gla-200-amg-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Hatchback 5 Doors",
+      "VEHICLETYPEID": 4,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Full Size",
+      "VEHICLECATEGORYID": 8,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "3 Luggages",
+      "BAGGAGEQUANTITYID": 3,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "BMW 3.20d or similar..",
+      "VEHICLEID": 15,
+      "VEHICLENAME": "BMW 3.20d or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "PDAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 78.91,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 157.82,
+      "DAILYPRICEPAYNOW": 78.91,
+      "TOTALPRICEPAYNOW": 157.82,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/15-38-42-bmw-320d-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/15-17-12-bmw-320d-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Luxury",
+      "VEHICLECATEGORYID": 4,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "5 Luggages",
+      "BAGGAGEQUANTITYID": 5,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Ford Tourneo 2017 or similar...",
+      "VEHICLEID": 20,
+      "VEHICLENAME": "Ford Tourneo 2017 or similar...",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "PVMD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 97.22,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 194.44,
+      "DAILYPRICEPAYNOW": 97.22,
+      "TOTALPRICEPAYNOW": 194.44,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/20-15-34-ford-tourneo-2017-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/20-27-48-ford-tourneo-2017-ve-benzeri.png"
+        }
+      ],
+      "VEHICLETYPE": "Van",
+      "VEHICLETYPEID": 8,
+      "TRANSMISSIONTYPE": "Manual",
+      "TRANSMISSIONTYPEID": 1,
+      "VEHICLECATEGORY": "Minibus",
+      "VEHICLECATEGORYID": 5,
+      "PASSENGERQUANTITY": "9 Person",
+      "PASSENGERQUANTITYID": 9,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "7 Luggages",
+      "BAGGAGEQUANTITYID": 7,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Mercedes E180 or similar..",
+      "VEHICLEID": 16,
+      "VEHICLENAME": "Mercedes E180 or similar..",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "XDAR",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 99.9,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 199.8,
+      "DAILYPRICEPAYNOW": 99.9,
+      "TOTALPRICEPAYNOW": 199.8,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/16-40-7-mercedes-e180-ve-benzeri.png"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/16-18-38-mercedes-e180-ve-benzeri.jpg"
+        }
+      ],
+      "VEHICLETYPE": "Saloon",
+      "VEHICLETYPEID": 5,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Luxury",
+      "VEHICLECATEGORYID": 4,
+      "PASSENGERQUANTITY": "5 Person",
+      "PASSENGERQUANTITYID": 3,
+      "FUELTYPE": "Gasoline",
+      "FUELTYPEID": 1,
+      "BAGGAGEQUANTITY": "6 Luggages",
+      "BAGGAGEQUANTITYID": 6,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    },
+    {
+      "VENDORID": 800,
+      "VENDORNAME": "WindyCar Rental",
+      "VENDORLOGO": "https://cdn.kolaycar.com/vendor/800.jpg",
+      "VENDORVEHICLENAME": "Ford Tourneo 2017 Automatic or similar...",
+      "VEHICLEID": 21,
+      "VEHICLENAME": "Ford Tourneo 2017 Automatic or similar...",
+      "VEHICLEDESCRIPTION": "Minimum Driver Age : 27   ;  Minimum Driver License : 5 Year ------ Please add young driver service if you do not meet the minimum requirements.",
+      "SIPPCODE": "PVAD",
+      "PICKUPLOCATIONID": 241,
+      "PICKUPLOCATIONNAME": "Adana Sakirpasa Airport",
+      "RETURNLOCATIONID": 241,
+      "RETURNLOCATIONNAME": "Adana Sakirpasa Airport",
+      "VENDORPICKUPLOCATIONID": 14,
+      "VENDORPICKUPLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORPICKUPLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORPICKUPLOCATIONTYPEID": 2,
+      "VENDORPICKUPLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORRETURNLOCATIONID": 14,
+      "VENDORRETURNLOCATIONNAME": "Adana Adana Airport Branch",
+      "VENDORRETURNLOCATIONGEO": "36.985421, 35.298881",
+      "VENDORRETURNLOCATIONTYPEID": 2,
+      "VENDORRETURNLOCATIONTYPENAME": "Meet and Greet ",
+      "VENDORMINDRIVERAGE": 27,
+      "VENDORMINDRIVINGLICENSEAGE": 5,
+      "PICKUPDATETIME": "2018-12-20T15:00:00",
+      "RETURNDATETIME": "2018-12-22T15:00:00",
+      "MINIMUMRENTALDURATIONDAYS": 1,
+      "RENTALDURATION": 2,
+      "DAILYPRICE": 112.01,
+      "ONEWAYFEE": 0,
+      "TOTALPRICE": 224.02,
+      "DAILYPRICEPAYNOW": 112.01,
+      "TOTALPRICEPAYNOW": 224.02,
+      "DAILYPRICEBASE": 0,
+      "TOTALPRICEBASE": 0,
+      "ISAVAILABLE": 0,
+      "RENTALCONDITIONS": [
+        {
+          "RENTALCONDITIONNAME": "Unlimited Collision Damage Waiver"
+        },
+        {
+          "RENTALCONDITIONNAME": "Third Party Cover"
+        },
+        {
+          "RENTALCONDITIONNAME": "Theft Protection"
+        },
+        {
+          "RENTALCONDITIONNAME": "Limited Milage 300km / day (4.000km for each rental agreement/month)"
+        },
+        {
+          "RENTALCONDITIONNAME": "VAT and all other TAXES"
+        },
+        {
+          "RENTALCONDITIONNAME": "HGS Higway and Bridges Payment Tool (only charges of usage may be collected as is)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Zero Excess"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accident &amp;amp; Breakdown Assistance (Free)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Free Cancelation* (applied for pay later reservations)"
+        },
+        {
+          "RENTALCONDITIONNAME": "Fair Fuel Policy"
+        },
+        {
+          "RENTALCONDITIONNAME": "Accesories &amp;amp; Snow Chains (in winter)"
+        }
+      ],
+      "VEHICLEIMAGES": [
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/21-26-15-ford-tourneo-2017-otomatik-vites-ve-benzeri.jpg"
+        },
+        {
+          "VEHICLEIMAGE": "https://v3.kolaycar.com/dosya/800/sinif/21-26-40-ford-tourneo-2017-otomatik-vites-ve-benzeri.jpg"
+        }
+      ],
+      "VEHICLETYPE": "Van",
+      "VEHICLETYPEID": 8,
+      "TRANSMISSIONTYPE": "Automatic",
+      "TRANSMISSIONTYPEID": 2,
+      "VEHICLECATEGORY": "Minibus",
+      "VEHICLECATEGORYID": 5,
+      "PASSENGERQUANTITY": "9 Person",
+      "PASSENGERQUANTITYID": 9,
+      "FUELTYPE": "Diesel",
+      "FUELTYPEID": 3,
+      "BAGGAGEQUANTITY": "7 Luggages",
+      "BAGGAGEQUANTITYID": 7,
+      "ISAIRCONDITION": true,
+      "DELIVERYPAYMENTACTIVE": true,
+      "CREDITCARDPAYMENTTYPE": 0,
+      "ADVANCEPAYMENTTYPE": 0
+    }
+  ]
+}

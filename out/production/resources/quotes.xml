@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+    <quotes type="array">
+        <quote>
+            <quoteId>dfc3c22a9065816650ac</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">59.49</totalAmount>
+            <dailyRate>29.74</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Ford Ka, Fiat Panda, Daihatsu Charade, Toyota Aygo</vechicles>
+                <image type="Paperclip::Attachment">/system/car_groups/images/000/000/001/original/KA_3DR.jpg?1511529436</image>
+                <code>MCMN,A1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>1938905eaaaa0604e103</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">60.99</totalAmount>
+            <dailyRate>30.50</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>VW Polo, Toyota Yaris, Ford Fiesta, Nissan Micra</vechicles>
+                <image type="Paperclip::Attachment">/system/car_groups/images/000/000/002/original/FIESTA_5DR.jpg?1511529505</image>
+                <code>ECMN,B1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>c7f2fb059a4f8db4b0ef</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">63.96</totalAmount>
+            <dailyRate>31.98</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Ford Focus, Toyota Auris, Opel Astra, VW Golf</vechicles>
+                <image type="Paperclip::Attachment">/system/car_groups/images/000/000/005/original/FOCUS_5DR.jpg?1511529624</image>
+                <code>CDMN,C1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>406d28ca1af87be0a508</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">69.9</totalAmount>
+            <dailyRate>34.95</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Toyota Corolla, VW Jetta, Renault Fluence</vechicles>
+                <image type="Paperclip::Attachment">/system/car_groups/images/000/000/006/original/COROLLA_4DR.jpg?1511532621</image>
+                <code>IDMN,D1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>0155b4e16df4bf88ae70</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">101.52</totalAmount>
+            <dailyRate>50.76</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Ford Fiesta Auto, Nissan Micra Auto </vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>ECAN,E1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>6a54c621edaf6f44b2a9</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">110.73</totalAmount>
+            <dailyRate>55.36</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Volkswagen Golf Auto, Renault Capture Auto, Opel Astra Auto </vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>CDAN,F1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>f51f609a6565ed258abd</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">117.66</totalAmount>
+            <dailyRate>58.83</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Toyota Corolla Auto, VW Jetta Auto, Renault Fluence Auto</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>IDAR,G1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>0637523a363cd4a65ad3</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">131.49</totalAmount>
+            <dailyRate>65.74</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>VW Passat Auto, Toyota Avensis Auto, Ford Mondeo Auto</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>SDAR,O1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>f22e90f10560fb70ba73</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">96.78</totalAmount>
+            <dailyRate>48.39</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Renault Grand Megane, Toyota Auris </vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>IWMR,H1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>fce7a6824e6195ea8507</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">98.67</totalAmount>
+            <dailyRate>49.34</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>VW Passat, Toyota Avensis, Ford Mondeo</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>SDMR,J1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>7be12d045cdc0a69e4e1</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">162.0</totalAmount>
+            <dailyRate>81.00</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Opel Zafira 5+2 Seats, Kia Carens 5+2 Seats</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>IVMR,I1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>1462d87a5e5c4aeae434</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">206.13</totalAmount>
+            <dailyRate>103.06</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Ford Galaxy, Seat Alhambra, Renault Grand Scenic, VW Touran</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>SVMN,L1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>e6a033aea3a094bd25ef</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">238.62</totalAmount>
+            <dailyRate>119.31</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Ford Galaxy Auto, Seat Alhambra Auto</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>SVAN,P1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>2bf967a93937bc2dd87f</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">177.0</totalAmount>
+            <dailyRate>88.50</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Audi A4 Manual, BMW 3 Series manual </vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>FDMR,M1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>674eaefae295c5933214</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">207.63</totalAmount>
+            <dailyRate>103.82</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Audi A4 Auto, BMW 3 Series Auto</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>FDAR,S1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>9aaa7d974466c5010dae</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">242.25</totalAmount>
+            <dailyRate>121.12</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Mercedes E200 Auto, Audi A6 Auto, BMW 5 series Auto </vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>LDAR,N1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>2c8197ab2ffdf40ba826</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">104.4</totalAmount>
+            <dailyRate>52.20</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Toyota Rav 4, VW Tiguan, Kia Sportage</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>IFMR,U1</code>
+            </carGroup>
+        </quote>
+        <quote>
+            <quoteId>bedf08a54890d73276ad</quoteId>
+            <status>Available</status>
+            <collectDateTime type="dateTime">2018-09-21T10:00:00Z</collectDateTime>
+            <returnDateTime type="dateTime">2018-09-23T12:00:00Z</returnDateTime>
+            <totalAmount type="float">196.11</totalAmount>
+            <dailyRate>98.06</dailyRate>
+            <pickUpLocation>
+                <code>dbs</code>
+                <name>Dublin City Sth</name>
+            </pickUpLocation>
+            <returnLocation>
+                <code>dbc</code>
+                <name>Dublin City Centre</name>
+            </returnLocation>
+            <carGroup>
+                <vechicles>Toyota Rav 4 Auto, VW Tiguan Auto, Kia Sportage Auto</vechicles>
+                <image type="Paperclip::Attachment">/images/original/missing.png</image>
+                <code>IFAR,R1</code>
+            </carGroup>
+        </quote>
+    </quotes>
+    <includedProducts type="array">
+        <includedProduct>
+            <id type="integer">10</id>
+            <name>Third Party Insurance</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">11</id>
+            <name>Excess Mileage</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">2</id>
+            <name>Theft Protection</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">22</id>
+            <name>Collision Damage Waiver</name>
+            <price nil="true"/>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">13</id>
+            <name>Road Tax</name>
+            <price type="float">2.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+        <includedProduct>
+            <id type="integer">14</id>
+            <name>Premium Location Charge</name>
+            <price type="float">28.0</price>
+            <maxCharge nil="true"/>
+            <priceType>Total</priceType>
+            <multiple type="boolean">false</multiple>
+        </includedProduct>
+    </includedProducts>
+    <extras type="array">
+        <extra>
+            <id type="integer">8</id>
+            <name>Young Driver Surcharge</name>
+            <price type="float">38.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">true</multiple>
+        </extra>
+        <extra>
+            <id type="integer">16</id>
+            <name>Child Seat</name>
+            <price type="float">15.0</price>
+            <maxCharge type="float">75.0</maxCharge>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">true</multiple>
+        </extra>
+        <extra>
+            <id type="integer">17</id>
+            <name>High Back Booster</name>
+            <price type="float">15.0</price>
+            <maxCharge type="float">45.0</maxCharge>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">true</multiple>
+        </extra>
+        <extra>
+            <id type="integer">15</id>
+            <name>Infant Car Seat</name>
+            <price type="float">15.0</price>
+            <maxCharge type="float">75.0</maxCharge>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">true</multiple>
+        </extra>
+        <extra>
+            <id type="integer">12</id>
+            <name>Enhanced Roadside Assistance</name>
+            <price type="float">5.0</price>
+            <maxCharge nil="true"/>
+            <priceType>Total</priceType>
+            <multiple type="boolean">false</multiple>
+        </extra>
+        <extra>
+            <id type="integer">23</id>
+            <name>PTA NAVI</name>
+            <price type="float">14.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </extra>
+        <extra>
+            <id type="integer">24</id>
+            <name>PTA PLUS</name>
+            <price type="float">19.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </extra>
+        <extra>
+            <id type="integer">7</id>
+            <name>Additional Driver</name>
+            <price type="float">10.5</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">true</multiple>
+        </extra>
+        <extra>
+            <id type="integer">18</id>
+            <name>Satellite Navigation Units</name>
+            <price type="float">12.0</price>
+            <maxCharge nil="true"/>
+            <priceType>ByDay</priceType>
+            <multiple type="boolean">false</multiple>
+        </extra>
+        <extra>
+            <id type="integer">9</id>
+            <name>Cross Border to N.I. Only</name>
+            <price type="float">34.0</price>
+            <maxCharge nil="true"/>
+            <priceType>Total</priceType>
+            <multiple type="boolean">false</multiple>
+        </extra>
+    </extras>
+    <extra-charges>
+        <one-way>
+            <amount type="float">30.0</amount>
+        </one-way>
+        <out-of-hours nil="true"/>
+    </extra-charges>
+    <terms-conditions type="URI::HTTPS">https://sixt-aws.isobar.ninja/system/source_ratesheet_groups/terms/000/000/013/original/sixt_IE_en.pdf?1528369225</terms-conditions>
+</hash>

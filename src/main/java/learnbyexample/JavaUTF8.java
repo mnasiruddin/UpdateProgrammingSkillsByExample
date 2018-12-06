@@ -24,6 +24,5 @@ public class JavaUTF8 {
         for (byte vvv : bytes) {
             System.out.println(Integer.toHexString(vvv));
         }
-
     }
 }

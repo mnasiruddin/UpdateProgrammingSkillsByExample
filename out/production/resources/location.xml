@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sixt-api-v2-entities-depot-fulls type="array">
+    <sixt-api-v2-entities-depot-full>
+        <code>dbs</code>
+        <name>Dublin City Sth</name>
+        <phone>+353-1-2352030</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>09:00</open>
+                <close>16:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2018-06-04</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2018-08-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2018-10-29</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2018-12-26</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-01-01</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-04-22</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-05-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-06-03</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-08-05</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>10:00</open>
+                <close>14:00</close>
+                <date type="date">2019-12-26</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>dbc</code>
+        <name>Dublin City Centre</name>
+        <phone>+353 1 235 2030</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2018-06-04</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2018-08-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2018-10-29</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2018-12-26</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-01-01</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-04-22</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-05-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-06-03</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-08-05</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-10-28</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open>08:00</open>
+                <close>15:00</close>
+                <date type="date">2019-12-26</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>dap</code>
+        <name>Dublin Airport</name>
+        <phone>+353 1 844 5689</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>05:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>dbn</code>
+        <name>Dublin City Nth</name>
+        <phone>+353 1 844 5691</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>08:00</open>
+                <close>18:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>09:00</open>
+                <close>16:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-05-07</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-26</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-10-28</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-06-04</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-08-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-10-29</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-26</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-01-01</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-04-22</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-05-06</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-06-03</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-08-05</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>ork</code>
+        <name>Cork Airport</name>
+        <phone>+353 1 235 2030</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>07:00</open>
+                <close>23:00</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>CTA</code>
+        <name>Belfast Int A/P</name>
+        <phone></phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>07:00</open>
+                <close>23:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+    <sixt-api-v2-entities-depot-full>
+        <code>CNZ</code>
+        <name>Belfast City A/P </name>
+        <phone>0044 7730 660650</phone>
+        <address nil="true"/>
+        <opening-hours type="array">
+            <opening-hour>
+                <day-of-week type="integer">0</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">4</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2018-12-25</date>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">3</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">6</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">1</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">2</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week type="integer">5</day-of-week>
+                <open>06:30</open>
+                <close>21:30</close>
+                <date nil="true"/>
+            </opening-hour>
+            <opening-hour>
+                <day-of-week nil="true"/>
+                <open nil="true"/>
+                <close nil="true"/>
+                <date type="date">2019-12-25</date>
+            </opening-hour>
+        </opening-hours>
+    </sixt-api-v2-entities-depot-full>
+</sixt-api-v2-entities-depot-fulls>
