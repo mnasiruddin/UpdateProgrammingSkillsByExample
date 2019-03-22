@@ -25,6 +25,9 @@ dependencies {
     compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-jaxb-annotations', version: '2.9.4'
     compile group: 'com.appnexus.grafana-client', name: 'grafana-api-java-client', version: '1.0.5'
     compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.0.0-RC1'
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    compile group: 'io.projectreactor', name: 'reactor-core', version: '3.2.6.RELEASE'
+
     testCompile "junit:junit:4.12"
     /*compile group: 'org.jooq', name: 'jooq', version: '3.11.7'
     compile group: 'org.jooq', name: 'jooq-meta', version: '3.11.7'

@@ -1,51 +1,81 @@
 package learnbyexample.java8;
 
-import com.google.common.base.Joiner;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Maps;
+import com.google.common.collect.ImmutableSet;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
 
 public class MapObjectToMapString {
 
-    private static final List<String> AU_STATE_CODES = new ImmutableList.Builder<String>()
-            .add("NSW")
-            .add("QLD")
-            .add("SA")
-            .add("TAS")
-            .add("VIC")
-            .add("WA")
-            .add("ACT")
-            .add("NT")
-            .build();
-
     public static void main(String[] args) {
+        final Set<String> AU_STATE_CODES = new HashSet<>();
+        AU_STATE_CODES.add("NSW");
+        AU_STATE_CODES.add("QLD");
+        AU_STATE_CODES.add("SA");
+        AU_STATE_CODES.add("TAS");
+        AU_STATE_CODES.add("VIC");
+        AU_STATE_CODES.add("WA");
+        AU_STATE_CODES.add("ACT");
+        AU_STATE_CODES.add("NT");
 
-        List<Map<String, Object>> mapList = new ArrayList<>();
-        Map<String, Object> mapOne = new HashMap<>();
-        mapOne.put("refOne", "one");
-        mapOne.put("taiagoOne", "one");
+        final Set<PaymentCardType> paymentCardTypeSet = new HashSet<>();
+        paymentCardTypeSet.add(new PaymentCardType("abc", "desciprtion1"));
+        paymentCardTypeSet.add(new PaymentCardType("def", "desciprtion2"));
+        paymentCardTypeSet.add(new PaymentCardType("ghi", "desciprtion3"));
+        paymentCardTypeSet.add(new PaymentCardType("jkl", "desciprtion4"));
 
-        Map<String, Object> mapTwo = new HashMap<>();
-        mapTwo.put("refTwo", "two");
-        mapTwo.put("taiagoTwo", "two");
+        final Set<PaymentCardType> finalSet = new HashSet<>(paymentCardTypeSet);
 
-        mapList.add(mapOne);
-        mapList.add(mapTwo);
+        AU_STATE_CODES.forEach(s -> {
+            final Set<PaymentCardType> copy = new HashSet<>(finalSet);
+            if (s.equalsIgnoreCase("NSW")) {
+                final Set<PaymentCardType> copy1 = new HashSet<>(copy);
+                final Set<PaymentCardType> added = new HashSet<>();
+                Iterator<PaymentCardType> iterator = copy1.iterator();
+                while (iterator.hasNext()) {
+                    PaymentCardType next = iterator.next();
+                    if (next.getCodeValue().equalsIgnoreCase("abc")) {
+                        PaymentCardType paymentCardType = new PaymentCardType(next.getCodeValue(), next.getDescription());
+                        paymentCardType.setSelected(true);
+                        added.add(paymentCardType);
+                        iterator.remove();
+                    }
+                }
+                copy1.addAll(added);
 
-        final List<Map.Entry<String, String>> collect = mapList.stream()
-                .flatMap(map -> map.entrySet().stream().map(t -> Maps.immutableEntry(t.getKey(), String.valueOf(t.getValue()))))
-                .collect(Collectors.toList());
+                System.out.println("copy1 +++++++++++----------------");
+                copy1.forEach(paymentCardType -> {
+                    System.out.println(paymentCardType.isSelected());
+                });
 
+                System.out.println("finalSet +++++++++++----------------");
+                finalSet.forEach(paymentCardType -> {
+                    System.out.println(paymentCardType.isSelected());
+                });
+            }
+            System.out.println("+++++++++++----------------");
+            copy.forEach(paymentCardType -> {
+                System.out.println(paymentCardType.isSelected());
+            });
+            System.out.println("????????????+++++++++++----------------");
+            finalSet.forEach(paymentCardType -> {
+                System.out.println(paymentCardType.isSelected());
+            });
+        });
 
-        System.out.println(Joiner.on(",").join(AU_STATE_CODES));
+        System.out.println("----------------");
+        finalSet.forEach(paymentCardType -> {
+            System.out.println(paymentCardType.isSelected());
+        });
+    }
 
-        System.out.println(AU_STATE_CODES.contains(""));
-        System.out.println(AU_STATE_CODES.contains(null));
-
+    private static Set<String> getSet() {
+        final Set<String> paymentCardTypeSet = new HashSet<>();
+        paymentCardTypeSet.add("abc");
+        paymentCardTypeSet.add("def");
+        paymentCardTypeSet.add("ghi");
+        paymentCardTypeSet.add("jkl");
+        return paymentCardTypeSet;
     }
 }
